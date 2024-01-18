@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Love Message Slideshow</title>
+  <link rel="stylesheet" href="styles.css">
+</head>  
+<body>
+  <div id="slideshow-container">
+    <div class="slide fade">
+      <p>I want to say many things, but i can't express so i made you this.</p>
+    </div>
+    <div class="slide fade">
+      <p>When I talk to you, everything feels right...
+My favourite part of the day is when i spend my time talking to you.
+Mera din agr kharab bhi gaya ho still tumse baat krke i feel like It was A perfect Day...
+You are the best person i have ever met.
+I dont wanna lose you. Kehne ko bohot h pr cant express....
+<3 Bhaijan (Shreya).</p>
+    </div>
+    <!-- Add more slides as needed -->
+
+    <!-- Navigation buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+<button id="startButton">Start
+Audio</button>
+
+<audio id="backgroundAudio" loop>
+    <source src="Mainrang.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
